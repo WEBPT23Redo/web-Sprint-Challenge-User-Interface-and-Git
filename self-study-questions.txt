@@ -1,0 +1,27 @@
+
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+HTML is a markup language that allows you to build a webpage. 
+
+2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+
+display: block; puts an element or group of elements on a line. 
+
+Display inline adds the element or element group to a line which allows other content to exist on that line.
+
+3. What are the 4 areas of the box model?
+
+
+The 4 areas of the box model would be: the content, padding, border and margin
+
+
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+
+That would be the X axis
+
+
+5. Explain why git is valuable to a team of developers. 
+
+Git allows you to save different versions of your software / web app. You are able to recover work in case of a power failure or your computer crashes.
