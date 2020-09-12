@@ -283,42 +283,54 @@ footer nav a {
 }
 
 /* About page CSS */
-.about-top {
+.about-navigation {
+    text-align: center;
+    margin-bottom: 60px;
+    top: 80px;
+}
+.about-navigation a {
+    font-size: 14px;
+    display: inline-block;
+    color:black;
+    justify-content: space-between;
+    vertical-align: middle;
+	padding: 20px 0 39px 0;
+	text-decoration: none;
+	margin-left: 20px;
+	margin-right: 20px;
+    display: inline;
+}
+.about-lambda {
+    position: relative;
+    left: 3px;
+    top: 11px;
+}
+.about-text {
     padding: 10px 25px;
     border-bottom: 1px dashed black;
     margin-bottom: 30px;
 }
-.about-main {
+.about-content {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    flex-direction: row;
     align-items: flex-start;
     margin-top: 10px;
 }
-.about-main div {
-    width: 42%;
-    margin: 3%;
-    line-height: 175%;
+.about-content h2 {
+    padding: 10px 0;
+    margin-bottom: 0;
+}
+.about-boxes {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: start;
-    align-items: center;
-    border-bottom: dashed 1px;
-    text-align: left;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
-.about-main div h2 {
-    text-align: left;
+.about-img {
+    height: 100%;
     width: 100%;
-}
-
-button {
-    margin-top: 15px;
-    background: white;
-    border: 2px solid black;
-    border-radius: 5px;
-    padding: 8px 35px 20px;
-    cursor: pointer;
+    margin: 5px 0;
 }
 .about-box {
     border-bottom: 1px dashed black;
@@ -331,13 +343,17 @@ button {
     align-items: flex-start;
     justify-content: center;
 }
-.about-footer {
-    margin-top: 5%;
-    width: 100%;
-    line-height: 175%;
+.about-box button {
+    text-align: left;
+    justify-content: left;
+    margin: 3% 0;
+    padding: 8px 18px;
+    border-radius: 5px;
+    border: solid black 2px;
+    background-color: white;
+    font-weight: 600;
 }
-
-.about-bottom {
+.work {
     padding: 10px 25px;
     margin-bottom: 30px;
 }
