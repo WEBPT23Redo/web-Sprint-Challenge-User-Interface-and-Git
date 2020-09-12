@@ -50,6 +50,33 @@ table {
 * {
     box-sizing: border-box;
 }
+.top-nav {
+    display: flex;
+    flex-grow: 1;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.top-nav a {
+    font-size: 14px;
+    display: inline-block;
+    color: black;
+    justify-content: space-between;
+    vertical-align: middle;
+    padding: 20px 0 39px 0;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.lambda-logo {
+    position: relative;
+    left: 3px;
+    top: 11px;
+}
+.header-img {
+    display: inline-block;
+    margin-bottom: 20px;
+}
 
 html, body {
     height: 100%;
@@ -112,6 +139,116 @@ p {
     justify-content: center;
 }
 
+.box1 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: teal;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box2 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: gold;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box3 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: cadetblue;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box4 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: coral;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box5 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: crimson;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box6 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: forestgreen;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box7 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: darkorchid;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box8 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: hotpink;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box9 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: indigo;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box10 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: dodgerblue;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
