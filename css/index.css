@@ -352,6 +352,7 @@ footer nav a {
     border: solid black 2px;
     background-color: white;
     font-weight: 600;
+    cursor: pointer;
 }
 .work {
     padding: 10px 25px;
