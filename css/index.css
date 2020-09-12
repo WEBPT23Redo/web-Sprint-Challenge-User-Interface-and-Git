@@ -283,3 +283,61 @@ footer nav a {
 }
 
 /* About page CSS */
+.about-top {
+    padding: 10px 25px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+.about-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.about-main div {
+    width: 42%;
+    margin: 3%;
+    line-height: 175%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: center;
+    border-bottom: dashed 1px;
+    text-align: left;
+}
+.about-main div h2 {
+    text-align: left;
+    width: 100%;
+}
+
+button {
+    margin-top: 15px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 8px 35px 20px;
+    cursor: pointer;
+}
+.about-box {
+    border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
+    width: 360px;
+    height: 400px;
+    margin: 20px 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.about-footer {
+    margin-top: 5%;
+    width: 100%;
+    line-height: 175%;
+}
+
+.about-bottom {
+    padding: 10px 25px;
+    margin-bottom: 30px;
+}
